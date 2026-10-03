@@ -1,0 +1,30 @@
+{"word": "abandon", "phonetic": "/əˈbændən/", "pos": "v", "gloss": "放弃；抛弃；离弃", "example": "He had to abandon the car and walk the rest of the way.", "freq_bucket": 1}
+{"word": "ability", "phonetic": "/əˈbɪləti/", "pos": "n", "gloss": "能力；才能；本领", "example": "She has the ability to explain complex ideas clearly.", "freq_bucket": 1}
+{"word": "academic", "phonetic": "/ˌækəˈdemɪk/", "pos": "adj", "gloss": "学术的；学院的；理论的", "example": "The academic year begins in early September.", "freq_bucket": 1}
+{"word": "access", "phonetic": "/ˈækses/", "pos": "n", "gloss": "使用权；通道；接入", "example": "Students have free access to the library's online resources.", "freq_bucket": 1}
+{"word": "abundant", "phonetic": "/əˈbʌndənt/", "pos": "adj", "gloss": "丰富的；充裕的", "example": "The region has abundant natural resources.", "freq_bucket": 2}
+{"word": "absorb", "phonetic": "/əbˈzɔːb/", "pos": "v", "gloss": "吸收；使全神贯注", "example": "Plants absorb carbon dioxide from the air.", "freq_bucket": 2}
+{"word": "abstract", "phonetic": "/ˈæbstrækt/", "pos": "adj", "gloss": "抽象的；纯理论的", "example": "The concept is too abstract for children to grasp.", "freq_bucket": 2}
+{"word": "abuse", "phonetic": "/əˈbjuːs/", "pos": "n", "gloss": "滥用；虐待；辱骂", "example": "The report exposed widespread abuse of power.", "freq_bucket": 2}
+{"word": "accelerate", "phonetic": "/əkˈseləreɪt/", "pos": "v", "gloss": "加速；促进；加快", "example": "The new policy may accelerate economic growth.", "freq_bucket": 2}
+{"word": "affect", "phonetic": "/əˈfekt/", "pos": "v", "gloss": "影响；感动；侵袭", "example": "Climate change will affect every country on earth.", "freq_bucket": 2}
+{"word": "effect", "phonetic": "/ɪˈfekt/", "pos": "n", "gloss": "影响；效果；作用", "example": "The medicine had an immediate effect on the patient.", "freq_bucket": 2}
+{"word": "effort", "phonetic": "/ˈefət/", "pos": "n", "gloss": "努力；尝试；尽力", "example": "Success requires sustained effort over many years.", "freq_bucket": 2}
+{"word": "adequate", "phonetic": "/ˈædɪkwət/", "pos": "adj", "gloss": "足够的；适当的；合格的", "example": "The salary is adequate for a decent life in this city.", "freq_bucket": 3}
+{"word": "adjacent", "phonetic": "/əˈdʒeɪsnt/", "pos": "adj", "gloss": "邻近的；毗连的", "example": "The two buildings are adjacent to each other.", "freq_bucket": 3}
+{"word": "advocate", "phonetic": "/ˈædvəkeɪt/", "pos": "v", "gloss": "提倡；拥护；主张", "example": "Many experts advocate a gradual approach to reform.", "freq_bucket": 3}
+{"word": "ambiguous", "phonetic": "/æmˈbɪɡjuəs/", "pos": "adj", "gloss": "含糊的；模棱两可的", "example": "The instructions were so ambiguous that no one knew what to do.", "freq_bucket": 3}
+{"word": "anticipate", "phonetic": "/ænˈtɪsɪpeɪt/", "pos": "v", "gloss": "预期；预料；期待", "example": "We anticipate that sales will rise next quarter.", "freq_bucket": 3}
+{"word": "apparent", "phonetic": "/əˈpærənt/", "pos": "adj", "gloss": "明显的；表面上的", "example": "It was apparent that he had made a serious mistake.", "freq_bucket": 3}
+{"word": "appeal", "phonetic": "/əˈpiːl/", "pos": "n", "gloss": "呼吁；上诉；吸引力", "example": "The charity launched an appeal for donations.", "freq_bucket": 3}
+{"word": "attribute", "phonetic": "/əˈtrɪbjuːt/", "pos": "v", "gloss": "归因于；认为是…所为", "example": "She attributes her success to hard work and luck.", "freq_bucket": 3}
+{"word": "thesis", "phonetic": "/ˈθiːsɪs/", "pos": "n", "gloss": "论文；论点；命题", "example": "", "freq_bucket": 3}
+{"word": "coherent", "phonetic": "/kəʊˈhɪərənt/", "pos": "adj", "gloss": "连贯的；条理清楚的", "example": "The essay presents a coherent argument.", "freq_bucket": 4}
+{"word": "coincide", "phonetic": "/ˌkəʊɪnˈsaɪd/", "pos": "v", "gloss": "同时发生；相符；一致", "example": "His arrival coincided with the power cut.", "freq_bucket": 4}
+{"word": "collaborate", "phonetic": "/kəˈlæbəreɪt/", "pos": "v", "gloss": "合作；协作；合著", "example": "The two universities agreed to collaborate on the research.", "freq_bucket": 4}
+{"word": "commence", "phonetic": "/kəˈmens/", "pos": "v", "gloss": "开始；着手", "example": "The ceremony will commence at noon.", "freq_bucket": 4}
+{"word": "compensate", "phonetic": "/ˈkɒmpenseɪt/", "pos": "v", "gloss": "补偿；赔偿；弥补", "example": "The company compensated the victims for their losses.", "freq_bucket": 4}
+{"word": "compelling", "phonetic": "/kəmˈpelɪŋ/", "pos": "adj", "gloss": "令人信服的；引人入胜的", "example": "There is compelling evidence that the policy works.", "freq_bucket": 4}
+{"word": "status quo", "phonetic": "", "pos": "phr", "gloss": "现状；维持现状", "example": "They are content with the status quo.", "freq_bucket": 4}
+{"word": "inevitable", "phonetic": "/ɪnˈevɪtəbl/", "pos": "adj", "gloss": "不可避免的；必然发生的", "example": "Nobody can stop it from happening.", "freq_bucket": 4}
+{"word": "Abandon", "phonetic": "/əˈbændən/", "pos": "v", "gloss": "（重复行，应被去重）", "example": "Duplicate row for dedup test.", "freq_bucket": 1}

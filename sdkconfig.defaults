@@ -1,0 +1,39 @@
+CONFIG_IDF_TARGET="esp32s3"
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+
+# Octal PSRAM：官方文档要求 PaperS3 必须使能且设 Octal 模式
+CONFIG_SPIRAM=y
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_SPEED_80M=y
+CONFIG_SPIRAM_USE_MALLOC=y
+# 大数组一律 ps_malloc（NFR-1）；堆内保留与 M5ReadPaper 实测一致的值
+CONFIG_SPIRAM_MALLOC_ALWAYSINTERNAL=16384
+CONFIG_SPIRAM_MALLOC_RESERVE_INTERNAL=49152
+
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+
+CONFIG_FREERTOS_HZ=1000
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=16384
+
+# 串口日志走 USB-Serial/JTAG（/dev/cu.usbmodem1101），115200（NFR-3）
+CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y
+CONFIG_ESPTOOLPY_MONITOR_BAUD_115200B=y
+
+# CPU 240MHz：display.c 的整屏旋转拷贝（51.8 万像素）与直驱刷屏都吃 CPU；
+# EPD 时序由 LCD_CAM 外设生成，提高主频不影响驱动稳定性，只缩短刷屏耗时
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+
+# D-cache 行宽 64B：默认 32B 会触发 epdiy 警告并把像素时钟 20MHz 减半到
+# 10MHz（刷屏耗时翻倍）。Octal PSRAM 配置下 64B 是合法且推荐的。
+CONFIG_ESP32S3_DATA_CACHE_LINE_64B=y
+
+# epdiy v2 无需 menuconfig 板型项：板型/屏型均为运行时结构体
+# （main/src/hal/epdiy_board_papers3.c 传入 epd_init），此处仅备注；
+# 组件本体需离线放入 components/epdiy（见阶段 3 交付报告）
+
+# FATFS 长文件名（堆缓冲）：不开 LFN 时只能创建 8.3 短名，
+# .srs 进度文件（CET4.wbx.srs）与 .stats 都会创建失败（真机实测），
+# 学习进度无法持久化。开启后 readdir 也会返回真实长名而非 8.3 大写别名。
+CONFIG_FATFS_LFN_HEAP=y
+CONFIG_FATFS_MAX_LFN=255

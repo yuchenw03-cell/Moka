@@ -1,0 +1,20 @@
+# ESP-IDF 构建产物
+build/
+# 由 sdkconfig.defaults + menuconfig 生成，不进仓库
+sdkconfig
+# 组件管理器自动下载
+managed_components/
+
+# macOS
+.DS_Store
+
+# 字体文件不进入仓库（版权原因，见 README「字体」一节）
+tools/cn_38px.bin
+tools/font_partition.bin
+
+# PC 端单测产物（make 可重建）
+tests/srs_pc/srs_pc_tests
+tests/srs_pc/srs_pc_asan
+*.dSYM/
+# 测试运行时的临时 .srs/.stats/.wbx 脚手架
+tests/srs_pc/t[0-9]*
